@@ -9,7 +9,7 @@ var colors = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bi
     "DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray",
     "DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue"]
 $(function(){
-// newQuote btn functionalit: shows a random quote and changes background color
+// newQuote btn functionality: shows a random quote and changes background color
   $("#btn").on("click", function(){
     var quote = quotes[Math.floor(Math.random()*quotes.length)];
     var color = colors[Math.floor(Math.random()*colors.length)];
