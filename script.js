@@ -14,7 +14,7 @@ $(function(){
     var quote = quotes[Math.floor(Math.random()*quotes.length)];
     var color = colors[Math.floor(Math.random()*colors.length)];
     var quoteURL = quote.replace(";", ",");
-    $("#quote").html("").append("<h2>" + quoteURL + "</h2>");
+    $("#quote").html("").append("<h2>" + quoteURL + "</h2>").hide();
     $("#quote").fadeIn(3000);
     $("body").css("background-color", color);
     $("#tweet").removeClass("hidden");
